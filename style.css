@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+button {
+  background-color: #4CAF50;
+  border: 1 solid black;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+  background-color: #6f4e37;
+}
+
+/* Navbar styling */
+nav {
+  /*العناصر جنب بعض*/
+  display: flex;
+  /*يفصل بين العناصر */
+  justify-content: space-between;
+  /*العناصر تجي ف النص*/
+  align-items: center;
+   /*كم تاخذ حجمها من الصفحة*/
+  height: 80px;
+  /*من فوق ومن تحت راح يكون 0 اما من يمين ويسار اوتو*/
+  margin:0 auto;
+  padding:0 20px;
+  background-color:black;
+}
+
+.logo {
+  display: flex;
+  font-size: 50px;
+  align-items: center;
+}
+nav .logo img{
+  /*مسافة بين العنوان وال لوقو*/
+padding-left: 12px;
+}
+nav .logo h4 {
+  font-family:serif;
+  color: white;
+}
+
+.nav-items {
+  display: flex;
+  /* يشيل علامات الليسته*/
+  list-style-type: none;
+  
+}
+
+.nav-item {
+  padding:20px;
+  
+}
+
+.nav-link {
+  /*يشيل الخط اللي تحت الرابط*/
+  text-decoration: none;
+  color:wheat;
+  font-size: 12px;
+}
+
+.nav-link:hover {
+  color: orange;
+
+}
+/*الصفحة الرئيسية*/
+#start{
+
+font-size: large;
+
+}
+#start img{
+float: left;
+
+}
+/*  الصلوات والاذكار */
+.now-prayers {
+  padding-top: 15px;
+}
+
+.prayers-section { 
+  
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.prayers-section h4 {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 12px;
+  
+}
+
+.prayers-section .prayers {
+   
+  display: grid;
+   /*كم عامود تبي*/
+  grid-template-columns: auto auto auto;
+  
+}
+
+.prayers .prayer{
+  margin: 20px;
+  display: flex;
+   /*الكلام تحت مو جنبها*/
+  flex-direction: column;
+  align-items: center;
+}
+
+.prayer img {
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.prayer img:hover {
+  scale: 1.3;
+  
+}
+.prayer h3 {
+  font-size: 25px;
+  color: aliceblue;
+}
+
+
+
+/* Footer */
+footer {
+  
+  background-color: #000;
+  margin-top: 90px;
+  padding: 32px ;
+}
+
+.footer-section {
+  display: flex; 
+  /*يخليها عامودية مو جنب بعض*/
+  flex-direction: column;
+ align-items: center;
+ 
+}
+
+.footer-section p {
+  font-size: 18px;
+  /*مسافة بينها وبين اللي تحتها*/
+  margin-bottom: 15px;
+  color:wheat;
+}
+
+.footer-section .socials {
+  margin-bottom:  15px;
+}
+
+blockquote{
+ color: antiquewhite;
+ font-size: 15px;
+ margin: 20x;
+ padding: 50px;
+ 
+
+}
+
+blockquote mark{
+
+font-size: 20px;
+
+
+}
+
+
+
+
+
